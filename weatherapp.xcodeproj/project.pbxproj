@@ -11,6 +11,8 @@
 		453C823A2F69B7D400732046 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453C82392F69B7D400732046 /* ContentView.swift */; };
 		453C823C2F69B7DF00732046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 453C823B2F69B7DF00732046 /* Assets.xcassets */; };
 		453C823F2F69B7DF00732046 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 453C823E2F69B7DF00732046 /* Preview Assets.xcassets */; };
+		453C82462F69BAD200732046 /* Hour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453C82452F69BAD200732046 /* Hour.swift */; };
+		453C82482F69BC3A00732046 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453C82472F69BC3A00732046 /* Day.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		453C82392F69B7D400732046 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		453C823B2F69B7DF00732046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		453C823E2F69B7DF00732046 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		453C82452F69BAD200732046 /* Hour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hour.swift; sourceTree = "<group>"; };
+		453C82472F69BC3A00732046 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				453C82392F69B7D400732046 /* ContentView.swift */,
 				453C823B2F69B7DF00732046 /* Assets.xcassets */,
 				453C823D2F69B7DF00732046 /* Preview Content */,
+				453C82452F69BAD200732046 /* Hour.swift */,
+				453C82472F69BC3A00732046 /* Day.swift */,
 			);
 			path = weatherapp;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				453C82462F69BAD200732046 /* Hour.swift in Sources */,
 				453C823A2F69B7D400732046 /* ContentView.swift in Sources */,
+				453C82482F69BC3A00732046 /* Day.swift in Sources */,
 				453C82382F69B7D400732046 /* weatherappApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
